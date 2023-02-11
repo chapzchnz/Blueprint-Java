@@ -1,6 +1,7 @@
 package codeClasss;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Pass {
     public static void main(String[] args) {
@@ -18,11 +19,15 @@ public class Pass {
         System.out.println(lkPassport.expiryDate);
         System.out.println(lkPassport.country);
         System.out.println(" ");
+        int i = Math.abs(-100);
 
-
-
+        ArrayList<String> ar = new ArrayList<>();
     }
-
+    /**
+     * @method pss
+     * @params
+     * @return djfldj
+     */
     // Passport creation blueprint
     static class Passport{
         String number;
@@ -35,6 +40,4 @@ public class Pass {
             this.country = country;
         }
     }
-
 }
-
